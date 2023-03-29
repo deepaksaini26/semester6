@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resume SYSTEM "res.dtd">
+<resume>
+<personal
+	name="Deepak Saini"
+	Mobile="0001112223"
+	email="deepak.saini262001@gmail.com">
+	<address>
+    		<street>423 Shanti Nagar</street>
+    		<city>Jaipur</city>
+    		<state>Rajasthan</state>
+    		<pincode>302018</pincode>
+  	</address>
+  	<education>
+    		<degree>BE CSE Cloud Computing</degree>
+    		<yeargraduated
+			from="2020"
+			to="2024">
+		</yeargraduated>
+		<cgpa>8.59</cgpa>
+		<school>Tagore International School</school>
+		<percentage
+			X="90.67"
+			yearX="2017"
+			XII="87.4"
+			yearXII="2019">
+		</percentage>
+ 	</education>	
+</personal>
+		
+<experience>
+	<certification>
+		<achievement
+			org="AWS Coursera"
+			certname="AWS Practitioner Foundation"
+			from="Sep 2022"
+			to="Nov 2022">
+		</achievement>
+		<achievement
+			org="Cisco Packet Tracer Coursera"
+			certname="Networking Systems"
+			from="Feb 2022"
+			to="May 2022">
+		</achievement>
+	</certification>
+	<projects>                                                                                                                                                                                                           
+		<pr>
+			<prname>AI Advanced Voice Assistant</prname>
+			<contribution>Pose Estimation Model</contribution>
+		</pr>   
+		<pr>
+			<prname>Web Application for Graphical DSA Representation</prname>
+			<contribution>Data files and Backend integration</contribution>
+		</pr>                                                                                                                                                                      
+	</projects>
+</experience>
+</resume>

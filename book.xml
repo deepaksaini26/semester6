@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="rule.xsl"?>
+<books>
+	<heading> Welcome To My Library </heading>
+	<book>
+		<title>Concepts of Physics</title>
+		<author>HC verma </author>
+		<publisher>Bharti Bhawan pvt.Ltd </publisher>
+		<edition>3rd </edition>
+		<price>300 </price>
+	</book>
+	<book>
+		<title>Advanced Mathematics</title>
+		<author>RS Agarwal </author>
+		<publisher>DS Publications</publisher>
+		<edition>4th </edition>
+		<price>400</price>
+	</book>
+	<book>
+		<title>Computer Networks </title>
+		<author>Foruouzan</author>
+		<publisher>Mc Graw Hill</publisher>
+		<edition>5th </edition>
+		<price>700 </price>
+	</book>
+	<book>
+		<title>DBMS Concepts</title>
+		<author>Navath</author>
+		<publisher>Oxford</publisher>
+		<edition>5th</edition>
+		<price>600</price>
+	</book>
+</books>

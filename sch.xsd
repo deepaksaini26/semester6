@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="myNamespaceUniqueValue"
+xmlns="myNamespaceUniqueValue"
+elementFormDefault="qualified">
+
+<xs:element name="library">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="Bookname" type="xs:string" default="Cloud"/>
+	<xs:attribute name="lang" type="xs:string"/>
+      <xs:element name="Author" type="xs:string" default="Anonymous"/>
+      <xs:element name="Publisher" type="xs:string" default="Bookstore"/>
+      <xs:element name="Edition" type="xs:string" default="1st"/>
+	<xs:element name="Price" type="xs:integer default="200"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="car">
+<xs:simpleType >
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="Robet Roy"/>
+    <xs:enumeration value="Ugrasen Suman"/>
+    <xs:enumeration value="Vipin Kumar"/>
+    <xs:enumeration value="Forouzan"/>
+    <xs:enumeration value="T.H Cormen"/>
+  </xs:restriction>
+</xs:simpleType>
+</xs:element>
+
+</xs:schema>
+
+A Reference to an XML Schema
+This XML document has a reference to an XML Schema:
+
+<?xml version="1.0"?>
+
+<note
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com/xml note.xsd">
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+</note>

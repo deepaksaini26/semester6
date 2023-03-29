@@ -1,0 +1,32 @@
+library_details {
+	margin:0.5em;
+	font-family: Cambria;
+	display:block;
+	}
+library {
+	display:block;
+	border: 1px solid orange;
+	margin:0.5em;
+	padding:0.5em;
+	background-color:whitesmoke;
+	}
+title {
+	display:block;
+	font-weight:bolder;
+	text-align:center;
+	font-size:30px;
+	background-color: orange;
+	color: white;
+	}
+Bookname, Author, Publisher, Edition, Price {
+	display:block;
+	text-align:center;
+	}
+Bookname {
+	text-decoration: underline ;
+	font-weight:bolder;
+	font-size:20px;
+	}
+Author, Publisher, Edition, Price {
+	color:orange;
+	}

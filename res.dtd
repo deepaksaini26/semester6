@@ -1,0 +1,31 @@
+<!ELEMENT resume(personal,experience)>
+<!ELEMENT personal (address,education)>
+<!ATTLIST personal name CDATA "Deepak Saini">
+<!ATTLIST personal mobile CDATA "0001112223">
+<!ATTLIST personal email CDATA "deepak.saini262001@gmail.com">
+<!ELEMENT address (street,city,state,pincode)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT pincode (#PCDATA)>
+<!ELEMENT education (degree,yeargraduated,cgpa,school,percentage)>
+<!ELEMENT yeargraduated (#PCDATA)>
+<!ATTLIST yeargraduated from CDATA "2020">
+<!ATTLIST yeargraduated to CDATA "2024">
+<!ELEMENT cgpa (#PCDATA)>
+<!ELEMENT school (#PCDATA)>
+<!ELEMENT percentage (#PCDATA)>
+<!ATTLIST percentage X CDATA "90.67">
+<!ATTLIST percentage yearX CDATA "2017">
+<!ATTLIST percentage XII CDATA "87.40">
+<!ATTLIST percentage yearXII CDATA "2019">
+<!ELEMENT experience (certifications,projects)>
+<!ELEMENT certifications (achievement)>
+<!ELEMENT achievement (#PCDATA)>
+<!ATTLIST achievement org CDATA "Campus">
+<!ATTLIST achievement certname CDATA "Cloud">
+<!ATTLIST achievement from CDATA "July 2020">
+<!ATTLIST achievement to CDATA "July 2024">
+<!ELEMENT projects (prname,contribution)>
+<!ELEMENT prname (#PCDATA)>
+<!ELEMENT contribution (#PCDATA)>
